@@ -1,0 +1,177 @@
+﻿header {
+    height: 10vh;
+    width: 100%;
+    background-color: #ae9e9e;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 0 13px rgb(0 0 0 / 25%);
+}
+header a{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+}
+nav .menu a {
+    display: inline-block;
+    margin: 20px 10px 10px 20px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    color: black;
+    font-size: 18px;
+}
+.simple{
+    background-image: url('Images/mindtree.jpg');
+    color:white;
+    padding:10px;
+    height:80vh;
+    width:100%;
+    
+
+}
+footer {
+    background-color: #f0f0f0;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    padding: 25px;
+    
+  
+}
+items {
+    text-align: center;
+    margin: 20px;
+}
+.items span{
+    margin:20px;
+   
+    
+    padding:0px 25px 25px;
+    height: 8px;
+    font-size:17px;
+   
+}
+ .simple p {
+        font-size: 30px;
+        float:left;
+    }
+
+ .simple .btn1 {
+    border-radius: 5px;
+    text-transform:uppercase;
+
+    margin-top:12%;
+    margin-left: -30%;
+    height: 50px;
+    width: 200px;
+    background-color: #8A0051;
+    color: white;
+}
+.images img{
+    width:100%;
+}
+
+.home {
+    background-image: url('Images/homepage.png');
+    color: white;
+    padding: 10px;
+    height: 80vh;
+    width: 100%;
+}
+.home h1{
+    text-align:justify;
+    padding:50px;
+}
+.about {
+    background-image: url('Images/about.png');
+    color: white;
+    padding: 10px;
+    height: 80vh;
+    width: 100%;
+}
+
+    .about h1 {
+        text-align: center;
+        padding: 50px;
+    }
+    .about p{
+        text-align:center;
+        font-size:19px;
+
+    }
+label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: right;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+input {
+    
+    height: 20px;
+    flex: 0 0 100px;
+    margin-left: 10px;
+}
+.contact {
+    background-color: #5de5dd;
+}
+.form{
+    margin-left: 100px;
+    margin-right:100px;
+   
+    padding:20px;
+
+}
+
+.from1{
+    align-items:center;
+    padding:20px;
+    text-align: center;
+}
+.form .left{
+   float:left;
+   padding: 10px;
+    
+}
+.form .right {
+    
+    float: right;
+    padding:10px;
+}
+
+
+.form input{
+    width:270px;
+    background: transparent;
+    border-bottom:1px solid black;
+    border-top:none;
+    border-right:none;
+    border-left:none
+        
+        
+}
+.form input:focus{
+    outline:none;
+}
+.content input {
+    display:inline-block;
+
+    margin-left:-80px;
+
+}
+.btn{
+    border-radius:5px;
+    text-align:center;
+    margin-left:40%;
+    height:50px;
+    width:200px;
+    background-color:#8A0051;
+    color:white;
+}
+
+
+
